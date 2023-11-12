@@ -1,0 +1,12 @@
+GET http://localhost:5000/reviews
+
+###
+POST http://localhost:5000/reviews
+Content-Type: application/json
+
+{
+    "stars": 5,
+    "description": " uenak polll mnasesseses",
+    "name": "anon",
+    "category": "food"
+}
