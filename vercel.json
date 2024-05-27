@@ -13,14 +13,14 @@
         }
     ],
     "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
         {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://terserah-one.vercel.app"
+        "source": "/(.*)",
+        "headers": [
+            {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://terserah-one.vercel.app"
+            }
+        ]
         }
-      ]
-    }
   ]
 }
